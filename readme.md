@@ -1,4 +1,4 @@
-# Encriptador de texto
+# Jogo da forca
 
 ## 💻 Sobre o Projeto
 Foi utilizado funções em JS para receber a entrada do usuário (letra) transformar tudo em minúsculo ou adicionar a palavra nova no campo.
@@ -18,7 +18,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 ## 📝 Contato
 
 Feito por Marcus Vinicius - [Contato](https://www.linkedin.com/in/marcusvpa/)
-#challengeonedecodificador2
+#challengeonejogoforca2 
 
 ## 📝 Melhorias a fazer
 Melhorar o tamanho do canva
