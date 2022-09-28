@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  header {
+    margin: 10px 10px;
+  }
+
+  body {
+      background: #E5E5E5;
+  }
+  
+  .container {
+    width: 100w;
+    height: 100h;
+    display: block;
+  }
+  
+  span {
+    /*border-bottom: 2px solid black;*/
+    text-transform: uppercase;
+  }
+
+  .container-fork {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px;
+    display: none;
+  }
+
+  .correct-letters {
+    margin-top: 1%;
+  }
+
+  .wrong-letters {
+    margin-top: 3%;
+  }
+
+  .won-message {
+    color: blue;
+    display: none;
+  }
+
+  .fail-message {
+    color:red;
+    display: none;
+  }
+
+  .add-message {
+    color: blue;
+    display: none;
+  }
+  
+  .container-btn {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .play-btn {   
+    text-align: center;
+    justify-content: center;
+
+    background: #0A3871;
+    border-radius: 24px;
+    width: 20%;
+    height: 30px;
+    margin: 10px 10px;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+  }
+
+  .play-btn:hover {
+    cursor: pointer;
+  }
+
+  .newword-btn {
+    text-align: center;
+    justify-content: center;
+    
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    width: 20%;
+    height: 30px;
+    margin: 10px 10px;
+    color: #0A3871;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+  }
+  
+  .newword-btn:hover {
+    cursor: pointer;
+  }
+
+
+  footer {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 10px;
+  }
